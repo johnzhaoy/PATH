@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+   
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // applicationId 即 App Id，applicationKey 是 App Key
         LeanCloud.initialize(applicationID: "XeHVFT93A6njJTky6marhQwm-gzGzoHsz", applicationKey: "3ooYsUsS3UvnExdqemuGRejD")
