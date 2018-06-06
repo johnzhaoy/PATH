@@ -1,0 +1,6 @@
+framework module Pods_path {
+  umbrella header "Pods-path-umbrella.h"
+
+  export *
+  module * { export * }
+}
