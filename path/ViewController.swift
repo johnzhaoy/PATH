@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
     @IBOutlet weak var button_heart: UIButton!
     @IBOutlet weak var button_plus: UIButton!
@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var button_end: UIButton!
     @IBOutlet weak var button_return: UIButton!
     @IBOutlet weak var button_path: UIButton!
-    
     var home_page=1
     var recode_page=0
     var trace_page=0
+    
 
     
 
@@ -41,6 +41,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         map2.delegate = self
+        print("home_page=",home_page)
+        print("recore_page",recode_page)
+        print("trace_page",trace_page)
         
       
         
@@ -71,6 +74,15 @@ class ViewController: UIViewController {
             button_plus.isHidden=true
             button_heart.isHidden=true
             button_return.isHidden=false
+        }
+        else
+        {
+            button_path.isHidden=true
+            button_end.isHidden=true
+            button_end1.isHidden=true
+            button_plus.isHidden=true
+            button_heart.isHidden=true
+            button_return.isHidden=true
         }
         //使用代码创建
         //        self.mainMapView = MKMapView(frame:self.view.frame)
@@ -140,11 +152,10 @@ extension ViewController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView,
     calloutAccessoryControlTapped control: UIControl) {
         guard let pathAnnotaion = view.annotation as? PathAnnotation else { return }
-        performSegue(withIdentifier: "ShowDetailView", sender: pathAnnotaion)
+        performSegue(withIdentifier: "backback", sender: pathAnnotaion)
     }
     
 }
-
 
 
 
