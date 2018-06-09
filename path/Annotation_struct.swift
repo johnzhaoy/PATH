@@ -22,12 +22,16 @@ class PathAnnotation: NSObject, MKAnnotation {
     let coordinate: CLLocationCoordinate2D
     let title: String?
     let subtitle: String?
+    let createrName:String?
+    let description1:String?
     let path:Path
     
     init(_ path: Path) {
         self.title = path.pathName
         self.subtitle = path.createrName
         self.coordinate = CLLocationCoordinate2D(latitude: path.latitude, longitude: path.longitude)
+        self.createrName=path.createrName
+        self.description1=path.discription1
         self.path = path
         super.init()
     }

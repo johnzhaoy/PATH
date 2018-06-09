@@ -1,36 +1,31 @@
 //
-//  back_to_map.swift
+//  ViewController9.swift
 //  path
 //
-//  Created by 赵云 on 2018/6/8.
+//  Created by 赵云 on 2018/6/9.
 //  Copyright © 2018年 zbq. All rights reserved.
 //
 
 import UIKit
 
-class back_to_map: UIViewController {
+class ViewController9: UIViewController {
     var home_page=0
     var recode_page=0
     var trace_page=0
-    var path:Path?
-    
-    
-    @IBOutlet weak var who: UILabel!
-    @IBOutlet weak var RDkind: UILabel!
-    @IBOutlet weak var descp: UILabel!
     
     
     
-    @IBAction func back(_ sender: Any) {
-        trace_page=1
-        performSegue(withIdentifier: "backbackback", sender:self)
-        //print(trace_page)
-        
+    
+    
+    @IBAction func start_record(_ sender: Any) {
+        recode_page=1
+        performSegue(withIdentifier: "start_record", sender:self)
     }
     
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "backbackback"
+        if segue.identifier == "start_record"
         {
             let detailVC = segue.destination as! ViewController
             
@@ -41,24 +36,7 @@ class back_to_map: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        who.text=path?.createrName
-        descp.text=path?.discription1
-        switch path?.pathName {
-        case "B":
-            RDkind.text="Bicycle Road"
-            break
-        case "S":
-            RDkind.text="Skateboard Road"
-            break
-        case "R":
-            RDkind.text="Running Road"
-            break
-        default:
-            break
-        }
-        who.textAlignment=NSTextAlignment.center
-        descp.textAlignment=NSTextAlignment.center
-        RDkind.textAlignment=NSTextAlignment.center
+
         // Do any additional setup after loading the view.
     }
 

@@ -135,14 +135,8 @@
                                     <segue destination="Wzh-xr-we2" kind="show" id="zNE-wG-pF9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0b-Xx-9uZ">
-                                <rect key="frame" x="91" y="246" width="90" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="🚴"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-Kz-joX">
-                                <rect key="frame" x="136" y="333" width="84" height="62"/>
+                                <rect key="frame" x="143" y="637" width="84" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="结束1"/>
@@ -151,7 +145,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guy-aY-oIU">
-                                <rect key="frame" x="143" y="466" width="83" height="26"/>
+                                <rect key="frame" x="146" y="723" width="83" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="返回">
@@ -159,7 +153,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6F-sq-8Ne">
-                                <rect key="frame" x="143" y="418" width="78" height="53"/>
+                                <rect key="frame" x="143" y="676" width="78" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="结束"/>
@@ -175,7 +169,6 @@
                         <outlet property="button_end" destination="E6F-sq-8Ne" id="PMW-Df-ZBz"/>
                         <outlet property="button_end1" destination="UpT-Kz-joX" id="rdX-hn-BxB"/>
                         <outlet property="button_heart" destination="hRs-cP-22t" id="cIL-Ig-Njh"/>
-                        <outlet property="button_path" destination="L0b-Xx-9uZ" id="pUN-I3-hXM"/>
                         <outlet property="button_plus" destination="m4U-Kl-frm" id="Lpi-Ef-Wdc"/>
                         <outlet property="button_return" destination="guy-aY-oIU" id="DKk-cK-PM9"/>
                         <outlet property="map2" destination="R1s-mA-Gmr" id="dNa-Vi-dvK"/>
@@ -186,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="149.59999999999999" y="543.8423645320197"/>
         </scene>
-        <!--VIEW 4-->
+        <!--ViewController4-->
         <scene sceneID="6e7-c3-Ju7">
             <objects>
-                <viewController title="VIEW 4" id="Wzh-xr-we2" sceneMemberID="viewController">
+                <viewController title="ViewController4" id="Wzh-xr-we2" customClass="ViewController4" customModule="path" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b11-h5-Ae9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +195,7 @@
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Qzc-XB-EtN"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="heart_to_main" id="Qzc-XB-EtN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="偏好设置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plt-mW-fyy">
@@ -212,18 +205,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-82-v7Z">
-                                <rect key="frame" x="265" y="150" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dac-Hr-bOb">
-                                <rect key="frame" x="265" y="201" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ViI-mi-23f">
-                                <rect key="frame" x="265" y="253" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="滑板" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5F-co-5fb">
                                 <rect key="frame" x="48" y="160" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -245,10 +226,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTp-3D-3OX">
+                                <rect key="frame" x="282" y="248" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="bicycle:" destination="Wzh-xr-we2" eventType="valueChanged" id="YwO-LS-fCb"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EIv-aD-DeM">
+                                <rect key="frame" x="280" y="150" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="skate_a:" destination="Wzh-xr-we2" eventType="valueChanged" id="FbN-sv-S91"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6IF-mT-leh">
+                                <rect key="frame" x="280" y="206" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="running_a:" destination="Wzh-xr-we2" eventType="valueChanged" id="k3V-Q3-zt2"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="die-qb-NSp"/>
                     </view>
+                    <connections>
+                        <outlet property="bicycle" destination="jTp-3D-3OX" id="5kz-ni-eKu"/>
+                        <outlet property="running" destination="6IF-mT-leh" id="C7s-gK-0l3"/>
+                        <outlet property="skate" destination="EIv-aD-DeM" id="Gfz-Ct-hDH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uqK-Wv-EKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,15 +269,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="彬琦的 滑板路" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jN-Vi-EUF">
-                                <rect key="frame" x="67" y="44" width="240" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTf-jq-aZb">
+                                <rect key="frame" x="67" y="545" width="36" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="enter"/>
+                                <connections>
+                                    <action selector="back:" destination="gnL-1U-65X" eventType="touchUpInside" id="2Ks-Z4-wrb"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7K-VV-alb">
-                                <rect key="frame" x="252" y="44" width="77" height="30"/>
+                                <rect key="frame" x="264" y="57" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="查看创建者"/>
                                 <connections>
@@ -290,19 +298,35 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="5Cm-mj-GJ0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTf-jq-aZb">
-                                <rect key="frame" x="67" y="545" width="36" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RD KIND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UU-xh-KkZ">
+                                <rect key="frame" x="111" y="61" width="145" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="enter"/>
-                                <connections>
-                                    <action selector="back:" destination="gnL-1U-65X" eventType="touchUpInside" id="2Ks-Z4-wrb"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="descitption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eh-dI-vQb">
+                                <rect key="frame" x="77" y="310" width="215" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="who's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-yy-wwb">
+                                <rect key="frame" x="29" y="57" width="74" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="97C-4W-S8q"/>
                     </view>
                     <connections>
+                        <outlet property="RDkind" destination="5UU-xh-KkZ" id="54M-O5-cVe"/>
+                        <outlet property="descp" destination="8eh-dI-vQb" id="1az-ds-rzJ"/>
+                        <outlet property="who" destination="ISZ-yy-wwb" id="G42-uv-j9j"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backbackback" id="kDe-IX-bMc"/>
                     </connections>
                 </viewController>
@@ -456,27 +480,30 @@
             </objects>
             <point key="canvasLocation" x="4490.3999999999996" y="543.8423645320197"/>
         </scene>
-        <!--VIEW 9-->
+        <!--ViewController9-->
         <scene sceneID="Ibb-XR-Gbf">
             <objects>
-                <viewController title="VIEW 9" id="CeE-Kp-vgu" sceneMemberID="viewController">
+                <viewController title="ViewController9" id="CeE-Kp-vgu" customClass="ViewController9" customModule="path" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xbp-ED-oaW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO4-WV-RQZ">
-                                <rect key="frame" x="170" y="564" width="79" height="46"/>
+                                <rect key="frame" x="148" y="586" width="79" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="开始"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="T1G-ma-a0p"/>
+                                    <action selector="start_record:" destination="CeE-Kp-vgu" eventType="touchUpInside" id="vRn-6F-ING"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="trn-Ae-mJd"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="start_record" id="Svh-MR-ojL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r9q-XY-3Gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -524,6 +551,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kDe-IX-bMc"/>
+        <segue reference="Qzc-XB-EtN"/>
     </inferredMetricsTieBreakers>
 </document>

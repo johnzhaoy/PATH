@@ -14,6 +14,8 @@
 		2FA5CD5C20898B5F00AC52DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA5CD5A20898B5F00AC52DC /* LaunchScreen.storyboard */; };
 		37939B8F2F2D59B340E1ECE4 /* Pods_path.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B566E450EB83981BB14522 /* Pods_path.framework */; };
 		524E975A20CAA62500F23EFF /* back_to_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975920CAA62500F23EFF /* back_to_map.swift */; };
+		524E975C20CB6DB600F23EFF /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975B20CB6DB600F23EFF /* ViewController9.swift */; };
+		524E975E20CB9C3200F23EFF /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975D20CB9C3200F23EFF /* ViewController4.swift */; };
 		52556C7320C60D7900A7A375 /* Annotation_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52556C7220C60D7900A7A375 /* Annotation_struct.swift */; };
 		52A5D08920C83A1D006B1CD0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5D08820C83A1D006B1CD0 /* Login.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		2FA5CD5D20898B5F00AC52DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450D5F2459A7C66CECB8E5A4 /* Pods-path.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-path.release.xcconfig"; path = "Pods/Target Support Files/Pods-path/Pods-path.release.xcconfig"; sourceTree = "<group>"; };
 		524E975920CAA62500F23EFF /* back_to_map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = back_to_map.swift; sourceTree = "<group>"; };
+		524E975B20CB6DB600F23EFF /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		524E975D20CB9C3200F23EFF /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		52556C7220C60D7900A7A375 /* Annotation_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation_struct.swift; sourceTree = "<group>"; };
 		52A5D06E20C829B1006B1CD0 /* path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = path.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A5D08820C83A1D006B1CD0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				2FA5CD5A20898B5F00AC52DC /* LaunchScreen.storyboard */,
 				2FA5CD5D20898B5F00AC52DC /* Info.plist */,
 				52A5D08820C83A1D006B1CD0 /* Login.swift */,
+				524E975B20CB6DB600F23EFF /* ViewController9.swift */,
+				524E975D20CB9C3200F23EFF /* ViewController4.swift */,
 			);
 			path = path;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A5D08920C83A1D006B1CD0 /* Login.swift in Sources */,
+				524E975E20CB9C3200F23EFF /* ViewController4.swift in Sources */,
 				52556C7320C60D7900A7A375 /* Annotation_struct.swift in Sources */,
+				524E975C20CB6DB600F23EFF /* ViewController9.swift in Sources */,
 				2FA5CD5420898B5F00AC52DC /* ViewController.swift in Sources */,
 				2FA5CD5220898B5F00AC52DC /* AppDelegate.swift in Sources */,
 				524E975A20CAA62500F23EFF /* back_to_map.swift in Sources */,
