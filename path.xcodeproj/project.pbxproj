@@ -371,7 +371,7 @@
 				CODE_SIGN_ENTITLEMENTS = path/path.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZW588H223;
+				DEVELOPMENT_TEAM = 2XYAGB2947;
 				INFOPLIST_FILE = path/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,7 +391,7 @@
 				CODE_SIGN_ENTITLEMENTS = path/path.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZW588H223;
+				DEVELOPMENT_TEAM = 2XYAGB2947;
 				INFOPLIST_FILE = path/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
