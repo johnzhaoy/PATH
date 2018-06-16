@@ -13,6 +13,8 @@
 		2FA5CD5920898B5F00AC52DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA5CD5820898B5F00AC52DC /* Assets.xcassets */; };
 		2FA5CD5C20898B5F00AC52DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA5CD5A20898B5F00AC52DC /* LaunchScreen.storyboard */; };
 		37939B8F2F2D59B340E1ECE4 /* Pods_path.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B566E450EB83981BB14522 /* Pods_path.framework */; };
+		5216BF8420D4DFCD008C9B56 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5216BF8320D4DFCC008C9B56 /* Logo.png */; };
+		5216BF8620D4E065008C9B56 /* 屏幕快照 2018-04-08 18.38.35.png in Resources */ = {isa = PBXBuildFile; fileRef = 5216BF8520D4E065008C9B56 /* 屏幕快照 2018-04-08 18.38.35.png */; };
 		524E975A20CAA62500F23EFF /* back_to_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975920CAA62500F23EFF /* back_to_map.swift */; };
 		524E975C20CB6DB600F23EFF /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975B20CB6DB600F23EFF /* ViewController9.swift */; };
 		524E975E20CB9C3200F23EFF /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E975D20CB9C3200F23EFF /* ViewController4.swift */; };
@@ -29,6 +31,8 @@
 		2FA5CD5B20898B5F00AC52DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA5CD5D20898B5F00AC52DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450D5F2459A7C66CECB8E5A4 /* Pods-path.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-path.release.xcconfig"; path = "Pods/Target Support Files/Pods-path/Pods-path.release.xcconfig"; sourceTree = "<group>"; };
+		5216BF8320D4DFCC008C9B56 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		5216BF8520D4E065008C9B56 /* 屏幕快照 2018-04-08 18.38.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2018-04-08 18.38.35.png"; sourceTree = "<group>"; };
 		524E975920CAA62500F23EFF /* back_to_map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = back_to_map.swift; sourceTree = "<group>"; };
 		524E975B20CB6DB600F23EFF /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
 		524E975D20CB9C3200F23EFF /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		2FA5CD5020898B5F00AC52DC /* path */ = {
 			isa = PBXGroup;
 			children = (
+				5216BF8520D4E065008C9B56 /* 屏幕快照 2018-04-08 18.38.35.png */,
+				5216BF8320D4DFCC008C9B56 /* Logo.png */,
 				524E975920CAA62500F23EFF /* back_to_map.swift */,
 				2FA5CD5120898B5F00AC52DC /* AppDelegate.swift */,
 				2FA5CD5320898B5F00AC52DC /* ViewController.swift */,
@@ -164,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5216BF8420D4DFCD008C9B56 /* Logo.png in Resources */,
+				5216BF8620D4E065008C9B56 /* 屏幕快照 2018-04-08 18.38.35.png in Resources */,
 				2FA5CD5C20898B5F00AC52DC /* LaunchScreen.storyboard in Resources */,
 				2FA5CD5920898B5F00AC52DC /* Assets.xcassets in Resources */,
 				2FA5CD5720898B5F00AC52DC /* Main.storyboard in Resources */,

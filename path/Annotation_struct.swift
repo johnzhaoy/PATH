@@ -9,13 +9,13 @@
 import Foundation
 import MapKit
 struct Path {
+    let pathType: String
     let pathName: String
     let createrName: String
     let discription1:String
     let latitude: Double
     let longitude: Double
 }
-
 
 class PathAnnotation: NSObject, MKAnnotation {
     static let clusteringIdentifier = "Path"
@@ -27,8 +27,8 @@ class PathAnnotation: NSObject, MKAnnotation {
     let path:Path
     
     init(_ path: Path) {
-        self.title = path.pathName
-        self.subtitle = path.createrName
+        self.title = path.pathType
+        self.subtitle = path.pathName
         self.coordinate = CLLocationCoordinate2D(latitude: path.latitude, longitude: path.longitude)
         self.createrName=path.createrName
         self.description1=path.discription1
@@ -36,3 +36,4 @@ class PathAnnotation: NSObject, MKAnnotation {
         super.init()
     }
 }
+

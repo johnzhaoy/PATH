@@ -18,6 +18,7 @@ class back_to_map: UIViewController {
     @IBOutlet weak var who: UILabel!
     @IBOutlet weak var RDkind: UILabel!
     @IBOutlet weak var descp: UILabel!
+    @IBOutlet weak var RDname: UILabel!
     
     
     
@@ -43,9 +44,10 @@ class back_to_map: UIViewController {
         super.viewDidLoad()
         who.text=path?.createrName
         descp.text=path?.discription1
-        switch path?.pathName {
-        case "B":
-            RDkind.text="Bicycle Road"
+        RDname.text=path?.pathName
+        switch path?.pathType {
+        case "C":
+            RDkind.text="Cycling Road"
             break
         case "S":
             RDkind.text="Skateboard Road"
